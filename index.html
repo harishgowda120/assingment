@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Grocery Store</title>
+    <link rel="stylesheet" href="syles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header" >
+            <div class="logo">Jinstore</div>
+            <nav style="background-color: #4CAF50; padding: 15px; font-family: Arial, sans-serif; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                <ul style="list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; gap: 20px;">
+                    <li>
+                        <a href="#" style="text-decoration: none; color: white; font-size: 16px; font-weight: bold; padding: 10px 20px; border-radius: 5px; transition: background-color 0.3s;">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" style="text-decoration: none; color: white; font-size: 16px; font-weight: bold; padding: 10px 20px; border-radius: 5px; transition: background-color 0.3s;">
+                            Shop
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" style="text-decoration: none; color: white; font-size: 16px; font-weight: bold; padding: 10px 20px; border-radius: 5px; transition: background-color 0.3s;">
+                            Deals
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" style="text-decoration: none; color: white; font-size: 16px; font-weight: bold; padding: 10px 20px; border-radius: 5px; transition: background-color 0.3s;">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+            </nav>
+            <div class="actions">
+                <input type="text" placeholder="Search">
+                <button>Cart</button>
+                <button>Profile</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background-image: url('./images/img\ 28'); background-size: cover; background-position: center; height: 400px;" >
+        <div class="container">
+            <div class="hero-text">
+                <h1>Shopping with us for better quality and the best price</h1>
+                <p>We have prepared special discounts for you on grocery products. Don't miss these opportunities...</p>
+                <button>Shop Now</button>
+                <p class="price"><span>$21.67</span> <del>$26.67</del></p>
+            </div>
+            <img src="hero-image-url.jpg" alt="Hero Image">
+        </div>
+    </section>
+
+   <!-- Categories -->
+<section class="categories">
+    <div class="container">
+        <h2>Categories</h2>
+        <div class="category-list" style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
+            <div class="category-item" style=" text-align: center; background-color: rgb(255, 255, 255);">
+                <div style="background-image: url('./images/img32'); background-size: cover; background-position: center; width: 80px; height: 80px; margin: 0 auto; border-radius: 50px;"></div>
+                <p>Fruits & Vegetables</p>
+            </div>
+            <div class="category-item" style=" text-align: center; background-color: rgb(255, 255, 255);">
+                <div style="background-image: url('./images/img\ 1'); background-size: cover; background-position: center; width: 80px; height: 80px; margin: 0 auto;  border-radius: 50px;"></div>
+                <p>Baby & Pregnancy</p>
+            </div>
+            <div class="category-item" style=" text-align: center; background-color: rgb(255, 255, 255);">
+                <div style="background-image: url('./images/img\ 12'); background-size: cover; background-position: center; width: 80px; height: 80px; margin: 0 auto; border-radius: 50px; "></div>
+                <p>Beverages</p>
+            </div>
+            <div class="category-item" style=" text-align: center; background-color: rgb(255, 255, 255);">
+                <div style="background-image: url('./images/img\ 20'); background-size: cover; background-position: center; width: 80px; height: 80px; margin: 0 auto; border-radius: 50px;" ></div>
+                <p>Meats & Seafood</p>
+            </div>
+            <div class="category-item" style=" text-align: center; background-color: rgb(255, 255, 255);">
+                <div style="background-image: url('./images/img\ 15'); background-size: cover; background-position: center; width: 80px; height: 80px; margin: 0 auto; border-radius: 50px;" ></div>
+                <p>Biscuits & Snacks</p>
+            </div>
+            <div class="category-item" style=" text-align: center; background-color: rgb(255, 255, 255);">
+                <div style="background-image: url('./images/img\ 18'); background-size: cover; background-position: center; width: 80px; height: 80px; margin: 0 auto; border-radius: 50px;" ></div>
+                <p>Breads & Bakery</p>
+            </div>
+            <div class="category-item" style=" text-align: center; background-color: rgb(255, 255, 255);">
+                <div style="background-image: url('./images/img\ 17'); background-size: cover; background-position: center; width: 80px; height: 80px; margin: 0 auto; border-radius: 50px;" ></div>
+                <p>Breakfast & Dairy</p>
+            </div>
+            <div class="category-item" style=" text-align: center; background-color: rgb(255, 255, 255);">
+                <div style="background-image: url('./images/img\ 14'); background-size: cover; background-position: center; width: 80px; height: 80px; margin: 0 auto; border-radius: 50px;" ></div>
+                <p>Frozen Foods</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Products -->
+    <section class="products">
+        <div class="container">
+            <h2>Editor's Pick</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="./images/img 1" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 3" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		 <div class="product-item">
+                    <img src="./images/img 4" style="height: 200px; width: 200px;"  alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 5" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		<div class="product-item">
+                    <img src="./images/img 6" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 7" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		 <div class="product-item">
+                    <img src="./images/img 8" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 9" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		<div class="product-item">
+                    <img src="./images/img 10" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 11" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		 <div class="product-item">
+                    <img src="./images/img 12" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 28" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		<div class="product-item">
+                    <img src="./images/img 14" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 15" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		 <div class="product-item">
+                    <img src="./images/img 16" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 17" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		<div class="product-item">
+                    <img src="./images/img 18" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 19" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		 <div class="product-item">
+                    <img src="./images/img 20" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 21" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		<div class="product-item">
+                    <img src="./images/img 22" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 27" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		 <div class="product-item">
+                    <img src="./images/img 24" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 25" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		<div class="product-item">
+                    <img src="./images/img 26" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 27" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		 <div class="product-item">
+                    <img src="./images/img 28" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 29" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 1" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 3" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		 <div class="product-item">
+                    <img src="./images/img 4" style="height: 200px; width: 200px;"  alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 5" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		<div class="product-item">
+                    <img src="./images/img 6" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 7" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		 <div class="product-item">
+                    <img src="./images/img 8" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 9" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		<div class="product-item">
+                    <img src="./images/img 10" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 11" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		 <div class="product-item">
+                    <img src="./images/img 12" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 28" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		<div class="product-item">
+                    <img src="./images/img 14" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 15" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		 <div class="product-item">
+                    <img src="./images/img 16" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 17" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		<div class="product-item">
+                    <img src="./images/img 18" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 19" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		 <div class="product-item">
+                    <img src="./images/img 20" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 21" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		<div class="product-item">
+                    <img src="./images/img 22" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 27" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		 <div class="product-item">
+                    <img src="./images/img 24" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 25" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		<div class="product-item">
+                    <img src="./images/img 26" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 27" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+		 <div class="product-item">
+                    <img src="./images/img 28" style="height: 200px; width: 200px;" alt="Product 1">
+                    <h3>Product Name 1</h3>
+                    <p class="price">$8.99 <del>$9.99</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="./images/img 29" style="height: 200px; width: 200px;" alt="Product 2">
+                    <h3>Product Name 2</h3>
+                    <p class="price">$1.25 <del>$2.98</del></p>
+                    <button onclick="addToCart('Product Name 1')">Add to Cart</button>
+                </div>
+
+
+		
+                <!-- Add more products as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #2c3e50; color: #fff; padding: 40px 0; font-family: Arial, sans-serif;">
+        <div class="container footer" style="display: flex; flex-wrap: wrap; justify-content: space-around; text-align: center;">
+            
+            <!-- Quick Links -->
+            <div class="footer-links" style="margin-bottom: 20px;">
+                <h3 style="margin-bottom: 15px; font-size: 18px; color: #f1c40f;">Quick Links</h3>
+                <a href="#" style="display: block; color: #ecf0f1; text-decoration: none; margin-bottom: 8px;">Privacy Policy</a>
+                <a href="#" style="display: block; color: #ecf0f1; text-decoration: none; margin-bottom: 8px;">Terms & Conditions</a>
+                <a href="#" style="display: block; color: #ecf0f1; text-decoration: none; margin-bottom: 8px;">Help Center</a>
+                <a href="#" style="display: block; color: #ecf0f1; text-decoration: none;">Order Tracking</a>
+            </div>
+            
+            <!-- About Us -->
+            <div class="about-us" style="margin-bottom: 20px; max-width: 250px;">
+                <h3 style="margin-bottom: 15px; font-size: 18px; color: #f1c40f;">About Us</h3>
+                <p style="font-size: 14px; color: #ecf0f1; line-height: 1.6;">
+                    Adaptive Learning Hub offers personalized learning experiences with smart progress tracking and resource recommendations to make learning more effective and engaging.
+                </p>
+            </div>
+            
+            <!-- Newsletter -->
+            <div class="newsletter" style="margin-bottom: 20px;">
+                <h3 style="margin-bottom: 15px; font-size: 18px; color: #f1c40f;">Join our Newsletter</h3>
+                <form>
+                    <input type="email" placeholder="Enter your email" style="padding: 10px; width: 200px; border: none; border-radius: 4px; margin-bottom: 10px;">
+                    <br>
+                    <button style="padding: 10px 20px; background-color: #f1c40f; border: none; border-radius: 4px; color: #2c3e50; cursor: pointer;">Subscribe</button>
+                </form>
+            </div>
+            
+            <!-- Contact Info -->
+            <div class="contact-info" style="margin-bottom: 20px;">
+                <h3 style="margin-bottom: 15px; font-size: 18px; color: #f1c40f;">Contact Us</h3>
+                <p style="font-size: 14px; color: #ecf0f1; margin-bottom: 8px;">Email: support@adaptivehub.com</p>
+                <p style="font-size: 14px; color: #ecf0f1; margin-bottom: 8px;">Phone: +91 98765 43210</p>
+                <p style="font-size: 14px; color: #ecf0f1;">Location: Bangalore, India</p>
+            </div>
+            
+        </div>
+        
+        <!-- Bottom Bar -->
+        <div style="text-align: center; padding-top: 20px; border-top: 1px solid #7f8c8d; margin-top: 20px;">
+            <p style="font-size: 14px; color: #bdc3c7;">&copy; 2025 Adaptive Learning Hub. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
